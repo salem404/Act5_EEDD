@@ -10,7 +10,8 @@
 //Ejercicio 1
 fun notaImpresa(numero:Int) {
     when (numero){
-        in 0..5 -> println("Suspenso")
+        in 0..4 -> println("Suspenso")
+        5 -> println("Suficiente")
         6 -> println("Bien")
         7,8 -> println("Notable")
         9,10 -> println("Sobresaliente")
